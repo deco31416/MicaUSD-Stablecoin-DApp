@@ -2,9 +2,9 @@ import { Token } from "../types";
 import { bsc, bscTestnet } from "./chains";
 
 export const testToken: Token = {
-  contractAddress: "0x0D990f4D877cF586EE27738D421889e9aC108b8e",
-  symbol: "Pruebas-T",
-  name: "Pruebas",
+  contractAddress: "0x04C385F999dDDc8be75A4384C26864abE496139A",
+  symbol: "MICAT",
+  name: "MICAUSD-T",
   decimals: 6,
   logoUrl:
     "https://res.cloudinary.com/dtwcswdd8/image/upload/v1729440270/mica-usd.png",
@@ -14,8 +14,8 @@ export const testToken: Token = {
 
 export const testTokenMainnet: Token = {
   contractAddress: "0x43940C2626f3227D3400fc522F51d9E8221C727E",
-  symbol: "Pruebas-T",
-  name: "Pruebas",
+  symbol: "MICAT",
+  name: "MICAUSD-T",
   decimals: 6,
   logoUrl:
     "https://res.cloudinary.com/dtwcswdd8/image/upload/v1729440270/mica-usd.png",

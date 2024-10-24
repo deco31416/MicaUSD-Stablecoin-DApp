@@ -1,8 +1,8 @@
 export const TokenbscAddressTestnet =
-  "0x2b15a1fa98F7E073Fc7c28452A40e868a81F54B3";
+  "0x04C385F999dDDc8be75A4384C26864abE496139A";
 
 export const TokenbscAddressMainnet =
-  "0x43940C2626f3227D3400fc522F51d9E8221C727E";
+  "0x04C385F999dDDc8be75A4384C26864abE496139A";
 
 export const TokenbscAbi = [
   {

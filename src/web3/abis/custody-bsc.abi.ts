@@ -1,8 +1,8 @@
 export const CustodybscAddressTestnet =
-  "0x9d68817FD446D104Ab9Bf7547cbd8A0F470Cd129";
+  "0xeB70B9E122c5dC153628314Ce4a7166f52F7dF45";
  
 export const CustodybscAddressMainnet =
-  "0x25105AADaA555Cc4C28ec327B9fab404bdf3aB25";
+  "0xeB70B9E122c5dC153628314Ce4a7166f52F7dF45";
 
 export const CustodybscAbi = [
   {
