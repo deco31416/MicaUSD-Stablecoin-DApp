@@ -7,11 +7,14 @@ import TokenContractInfo from "./pages/token-contract-info/containers/token-cont
 
 function App() {
   return (
-    <div className="relative flex flex-col gap-4">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div className="w-full flex justify-center">
-        <main className="container px-6 pb-6 sm:px-10 max-w-[1024px] grid grid-cols-[2fr_1fr] gap-4">
-          <section className="">
+      
+      {/* Contenedor principal con flex-grow para que empuje el footer */}
+      <div className="flex-grow w-full flex justify-center">
+        <main className="container px-4 sm:px-6 lg:px-10 pb-6 max-w-[1024px] grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6">
+          {/* Tabs y contenido a la izquierda (en pantallas grandes se mostrarán en dos columnas) */}
+          <section className="mt-6">
             <Tabs aria-label="Options">
               <Tab key="supplyCustody" title="Supply Custody">
                 <SupplyCustodyContainer />
@@ -21,9 +24,14 @@ function App() {
               </Tab>
             </Tabs>
           </section>
-          <TokenContractInfo />
+          
+          {/* Información de TokenContract a la derecha (en pantallas pequeñas, debajo de las pestañas) */}
+          <div className="mt-6 lg:mt-0">
+            <TokenContractInfo />
+          </div>
         </main>
       </div>
+      
       <Footer />
     </div>
   );

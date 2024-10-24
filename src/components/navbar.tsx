@@ -20,7 +20,7 @@ function Navbar() {
   };
 
   return (
-    <NavbarUi className="bg-gray-900 text-white">
+    <NavbarUi className="bg-gray-900 text-white py-2 pb-2">
       <NavbarBrand className="flex items-center gap-2">
         <img src={tokens.mainToken.logoUrl} alt="logo" className="w-8 h-8" />
         <h2 className="font-bold text-inherit text-primary">

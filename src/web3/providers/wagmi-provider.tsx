@@ -5,7 +5,8 @@ import {
 } from "@rainbow-me/rainbowkit";
 import { WagmiProvider as Provider } from "wagmi";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-import { bsc, bscTestnet } from "../configs/chains";
+import {bscTestnet } from "../configs/chains";
+// import { bsc, bscTestnet } from "../configs/chains";
 import { ReactNode } from "react";
 import "@rainbow-me/rainbowkit/styles.css";
 
@@ -13,7 +14,8 @@ function WagmiProvider({ children }: { children: ReactNode }) {
   const config = getDefaultConfig({
     appName: "Dapp Test",
     projectId: "a6d480bf4c3466c053ef6cba8f4d4925",
-    chains: [bsc, bscTestnet],
+    chains: [bscTestnet],
+    // chains: [bsc, bscTestnet],
   });
 
   const theme = darkTheme();

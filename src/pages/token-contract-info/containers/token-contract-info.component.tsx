@@ -66,7 +66,7 @@ function TokenContractInfo() {
     totalSupply - (totalMintedTokensUser - totalBurnedTokens);
 
   return (
-    <section className="flex flex-col pt-12 gap-4">
+    <section className="flex flex-col pt-20 gap-4">
       <CardBalance
         title="Balance Gas MetaMask"
         symbol={nativeCurrency?.symbol || "-"}

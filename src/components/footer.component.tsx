@@ -1,4 +1,4 @@
-import logo from '../../public/logo-deco31416.png'; // Asegúrate de que el logo esté en la carpeta correcta
+import logo from '../../public/deco31416.png'; // Asegúrate de que el logo esté en la carpeta correcta
 
 const Footer = () => {
     return (
