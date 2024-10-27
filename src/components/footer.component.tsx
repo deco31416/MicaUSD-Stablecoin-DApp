@@ -21,7 +21,7 @@ const Footer = () => {
               By Deco31416
             </a>
             <p className="font-light text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} - Project for demonstration only.
+              &copy; {new Date().getFullYear()} For demonstration only
             </p>
           </div>
   
